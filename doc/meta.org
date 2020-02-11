@@ -9,10 +9,12 @@
    Use a [[https://realpython.com/python-virtual-environments-a-primer/][virtual environment]] I use Miniconda, and it works well:
    [[https://www.notion.so/solvas/Machine-Learning-in-Python-db6cda86de16427d8fcbe0bb475f7e02][How-to]].
 
+   [[https://github.com/pytorch/pytorch/tree/master/torch][Torch]]
    #+begin_src sh
      sudo pip3 install torch 
    #+end_src
    
+   [[https://github.com/huggingface/transformers][Hugging Face: Transformers]]
    #+begin_src sh
      sudo pip3 install transformers 
    #+end_src
