@@ -1,10 +1,14 @@
 #+TITLE: Hugging Face GPT with Clojure
 
-[[http://gigasquidsoftware.com/blog/2020/01/10/hugging-face-gpt-with-clojure/][Hugging Face GPT Clojure]]
+[[http://gigasquidsoftware.com/blog/2020/01/10/hugging-face-gpt-with-clojure/][Hugging Face GPT Clojure]] (seems insufficient)
+[[https://github.com/gigasquid/libpython-clj-examples/blob/master/src/gigasquid/gpt2.clj][Example on GitHub]]
 
 * Setup
 ** Install Python
 ** Install Python libraries
+   Use a [[https://realpython.com/python-virtual-environments-a-primer/][virtual environment]] I use Miniconda, and it works well:
+   [[https://www.notion.so/solvas/Machine-Learning-in-Python-db6cda86de16427d8fcbe0bb475f7e02][How-to]].
+
    #+begin_src sh
      sudo pip3 install torch 
    #+end_src
@@ -12,3 +16,7 @@
    #+begin_src sh
      sudo pip3 install transformers 
    #+end_src
+
+** Install libpython-clj
+   Add ~libpython-clj~ to your dependencies. The current version is:
+   [clj-python/libpython-clj "1.36"]
