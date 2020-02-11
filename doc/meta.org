@@ -1,0 +1,14 @@
+#+TITLE: Hugging Face GPT with Clojure
+
+[[http://gigasquidsoftware.com/blog/2020/01/10/hugging-face-gpt-with-clojure/][Hugging Face GPT Clojure]]
+
+* Setup
+** Install Python
+** Install Python libraries
+   #+begin_src sh
+     sudo pip3 install torch 
+   #+end_src
+   
+   #+begin_src sh
+     sudo pip3 install transformers 
+   #+end_src
